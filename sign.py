@@ -10,7 +10,8 @@ elif n>0:
 
 elif n<0:
 	print("Negative")
-
+elif :
+	print("invalid")
 	
 		
 
