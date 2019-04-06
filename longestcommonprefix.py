@@ -11,4 +11,4 @@ for i in range(len(sw)):
 		lp=sw[:i+1]
 	else:
 		break
-print(p)
+print(lp)
