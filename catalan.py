@@ -10,5 +10,5 @@ def catalan(n):
 
 n=int(input())
 
-for i in range(n+1):
+for i in range(n):
 	print(catalan(i),end=" ")
