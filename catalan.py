@@ -1,14 +1,17 @@
-def catalan(n):
+n=int(input())
+
+for i in range(n):
+	print(c(i),end=" ")
+
+def c(n):
 	if n <= 1:
 		return 1
 	r=0
 	
 	for i in range(n):
-		r+=catalan(i)*catalan(n-i-1)
+		r+=c(i)*c(n-i-1)
 	
-	return r 
-
-n=int(input())
-
-for i in range(n):
-	print(catalan(i),end=" ")
+	return r 	
+	
+	
+	
