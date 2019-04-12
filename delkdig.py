@@ -8,6 +8,9 @@ else:
 	l=x[0:z]
 	r=x[z:]
 	n=r+l
-	n=n[:-k]
+	n=n[:-z]
+	n = "".join(sorted(str(n)))
+	f=k-z
+	n=n[:-f]
 	print(n)
  
