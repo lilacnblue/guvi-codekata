@@ -1,7 +1,7 @@
 from math import ceil,log2
-t=input()
-t=int(t)
-n=ceil(log2(t/3+1))
-start= 3 * (1 << (n-1))
-ind = (t - 3 )*((1 << n-1) - 1) -1
-print(range(start, 0, -1)[ind])
+t=int(input())
+n = ceil(log2((t+3)/6.0))
+diff = t - 3*(2 ** n -1) -1
+print(3 * 2 ** n - diff)
+  
+  
