@@ -22,7 +22,7 @@ int main()
 			b-=f;
 			if(b<0)
 			{
-				puts("-1")
+				puts("-1");
 				return 0;
 			}
 
