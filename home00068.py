@@ -1,3 +1,7 @@
 y=[int(x) for x in input().split()]
 print("1",end=" ")
-print(y[0]-y[1])
+t=y[0]-y[1]
+if y[1]==1:
+  print("2")
+else:
+  print(t)
