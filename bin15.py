@@ -5,7 +5,6 @@ if n==3:
 	print("1")
 else:
 	x=[int(x) for x in input().split()]
-	
 	d={}
 	for i in x:
 		t=bin(i)
@@ -18,12 +17,9 @@ else:
 				c=c+0.9
 			
 		d[c]=t
-		#print(d)
-	
-o=sorted(d.values(), key=lambda x: x[1])
-o=o[::-1]
-#print(o)
-for i in o:
-	print(int(i,2))
+	o=sorted(d.values(), key=lambda x: x[1])
+	o=o[::-1]
+	for i in o:
+		print(int(i,2))
 
 
