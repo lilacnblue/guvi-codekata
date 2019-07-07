@@ -1,7 +1,6 @@
-#include <cstdio>
 #include <algorithm>
 #include <vector>
-
+#include <cstdio>
 
 int main(){
 
