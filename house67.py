@@ -1,7 +1,7 @@
-k=[int(x) for x in input().split()]
-if k[0]-k[1]==0:
+l=[int(x) for x in input().split()]
+if l[0]-l[1]==0:
   print("0",end=" ")
   print("0")
 else:
   print("1",end=" ")
-  print(k[0]-k[1])
+  print(l[0]-l[1])
