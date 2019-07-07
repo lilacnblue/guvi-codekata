@@ -7,7 +7,7 @@ int main()
 {
 	scanf("%d %d %d %d",&a, &b, &f, &k);
 	int tmpb =b;
-	int res =0;
+	int ress =0;
 	for(int i=0;i<k;++i)
 	{
 		if(b<0)
@@ -31,14 +31,14 @@ int main()
 				if((a-f)>b)
 				{
 					b=tmpb;
-					++res;
+					++ress;
 				}
 			}
 			else {
 				if((a-f)*2>b)
 				{
 					b =tmpb;
-					++res;
+					++ress;
 
 				}
 			}
@@ -60,7 +60,7 @@ int main()
 					if(f>b)
 					{
 						b=tmpb;
-						++res;
+						++ress;
 
 					}
 				}
@@ -85,7 +85,7 @@ int main()
 		puts("-1");
 		return 0;
 	}
-printf("%d\n",res);
+printf("%d\n",ress);
 return 0;
 
 }
