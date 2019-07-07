@@ -14,7 +14,7 @@ else:
 			if int(d[c],2)>int(t,2):
 				c=c-0.1
 			else:
-				c=c+0.9
+				c=c+0.8
 			
 		d[c]=t
 	o=sorted(d.values(), key=lambda x: x[1])
