@@ -5,7 +5,7 @@ if n==3:
 	print("1")
 else:
 	x=[int(x) for x in input().split()]
-	#k=[]
+	k=[]
 	d={}
 	for i in x:
 		t=bin(i)
