@@ -1,5 +1,6 @@
 n,k=input().split()
 k=int(k)
+k=int(k)
 arr=[int(x) for x in input().split()]
 val=int(input())
 p=val-(sum(arr)-arr[k])/2
