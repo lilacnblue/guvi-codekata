@@ -69,7 +69,7 @@ int main()
 					if(f*2>b) 
 					{
 						b=tmpb;
-						++res;
+						++ress;
 					}
 				}
 
