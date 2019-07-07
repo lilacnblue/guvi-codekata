@@ -1,4 +1,5 @@
 N=256
+N=256
 def fls(string):
 	n=len(string)
 	cl=1
