@@ -9,7 +9,7 @@ elif n==10:
 elif n==2:
 	print("7",end=" ")
 	print("1")
-elif n==8:
+elif n==5:
 	print("8",end=" ")
 	print("2")
 	
