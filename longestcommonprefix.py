@@ -8,7 +8,7 @@ lp=""
 sw = min(a, key=len)
 for i in range(len(sw)):
 	if all ([x.startswith(sw[:i+1]) for x in a]):
-		lp=sw[:i+1]
+		lpp=sw[:i+1]
 	else:
 		break
-print(lp)
+print(lpp)
