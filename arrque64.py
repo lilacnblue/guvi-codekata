@@ -31,4 +31,4 @@ else:
 	m=[int(x) for x in input().split()]
 	l=len(m)
 	for i in m:
-		print(v[i-1],end=" ")
+		print(v[i-1],end="  ")
