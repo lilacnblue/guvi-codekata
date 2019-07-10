@@ -1,6 +1,8 @@
 x=[x for x in input().split()]
-n=len[x[0]]
-m=len[x[1]]
+a=x[0]
+n=len(a)
+b=x[1]
+m=len(b)
 c=0
 for i in range(n):
 	if x[0][i]==x[1][i]:
